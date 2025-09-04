@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elk & Stitch | Handmade Knitwear</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fafafa;
+      color: #333;
+    }
+    header {
+      background: #d8c4b6;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-size: 1.5rem;
+      margin: 0;
+    }
+    nav a {
+      margin-left: 1rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9') no-repeat center/cover;
+      height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+      flex-direction: column;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    .btn {
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background: #6b4226;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+    .product {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    .product h3 {
+      margin: 0.5rem 0;
+    }
+    footer {
+      background: #d8c4b6;
+      padding: 1rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Elk & Stitch</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Handmade Comfort</h2>
+    <p>Woven for You</p>
+    <a href="#shop" class="btn">Shop Now</a>
+  </section>
+
+  <section id="shop" class="products">
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1603251579431-8041402dcd9c" alt="Knit Sweater">
+      <h3>Cozy Sweater</h3>
+      <p>$60</p>
+      <button class="btn">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246" alt="Knit Scarf">
+      <h3>Wool Scarf</h3>
+      <p>$25</p>
+      <button class="btn">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://images.unsplash.com/photo-1617957741649-53b36a10c8d4" alt="Knit Hat">
+      <h3>Winter Hat</h3>
+      <p>$20</p>
+      <button class="btn">Add to Cart</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Elk & Stitch | Handmade with love 🧶</p>
+  </footer>
+</body>
+</html>
