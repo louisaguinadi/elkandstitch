@@ -5,34 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Elk & Stitch | Handmade Knitwear</title>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- Include Rochester via Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Rochester&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
 
   <style>
     body {
       font-family: 'Montserrat', sans-serif;
       margin: 0;
       padding: 0;
-      background: #fdfaff; /* soft off-white with a pink hue */
-      color: #2b2d42; /* dark navy-blue for text */
+      background: linear-gradient(135deg, #ffe4f0, #d0e8ff); /* pink to blue soft gradient */
+      color: #2b2d42; /* dark navy-blue for clarity */
     }
     header {
-      background: linear-gradient(90deg, #f7a1c4, #8ecae6); /* pink to blue gradient */
+      background: rgba(255,255,255,0.8); /* semi-transparent for softness */
+      backdrop-filter: blur(5px);
       padding: 1rem 2rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
     header h1 {
-      font-size: 1.8rem;
+      font-size: 2rem;
       margin: 0;
-      color: white;
-      font-family: 'Berkshire Swash', cursive; /* Custom logo font */
+      color: #2b2d42;
+      font-family: 'Rochester', cursive; /* Rochester logo font */
     }
     nav a {
       margin-left: 1rem;
       text-decoration: none;
-      color: white;
+      color: #2b2d42;
       font-weight: 600;
     }
     .hero {
@@ -50,7 +51,7 @@
     .hero h2 {
       font-size: 3rem;
       margin: 0;
-      font-family: 'Berkshire Swash', cursive;
+      font-family: 'Rochester', cursive;
     }
     .hero p {
       font-size: 1.2rem;
@@ -58,7 +59,7 @@
     .btn {
       margin-top: 1rem;
       padding: 0.75rem 1.5rem;
-      background: #f28482; /* warm pink button */
+      background: #ff8fb1; /* pastel pink button */
       color: white;
       border: none;
       border-radius: 30px;
@@ -68,7 +69,7 @@
       cursor: pointer;
     }
     .btn:hover {
-      background: #8ecae6; /* blue on hover */
+      background: #8ecae6; /* pastel blue on hover */
     }
     .products {
       display: grid;
@@ -77,7 +78,7 @@
       padding: 2rem;
     }
     .product {
-      background: white;
+      background: rgba(255,255,255,0.9);
       border-radius: 15px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
       overflow: hidden;
@@ -94,14 +95,14 @@
     }
     .product h3 {
       margin: 0.5rem 0;
-      font-family: 'Berkshire Swash', cursive;
+      font-family: 'Rochester', cursive;
       color: #2b2d42;
     }
     .product p {
       color: #6c757d;
     }
     footer {
-      background: #8ecae6;
+      background: rgba(44, 54, 81, 0.8);
       color: white;
       padding: 1rem;
       text-align: center;
